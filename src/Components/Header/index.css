@@ -1,0 +1,48 @@
+.header-bg-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 10vh;
+    list-style-type: none;
+    min-width: 95vw;
+    padding: 10px;
+  }
+  .head-options {
+    transition: color 0.3s ease;
+    color: black;
+  }
+
+  .head-options:hover{
+    cursor: pointer;
+  }
+
+
+  .header-options {
+    display: flex;
+    list-style-type: none;
+    color: black;
+  }
+  .header-sub-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-home {
+    padding: 5px;
+  }
+  .header-jobs {
+    padding: 5px;
+  }
+  
+  .header-button-container {
+    padding: 5px;
+  }
+  
+  /* @media screen and (max-width: 576px) {
+    .hamburger-display {
+      display: none;
+    }
+  } */
+  
+  @media screen and (max-width: 576px) {
+  }
+  

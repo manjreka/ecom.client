@@ -1,0 +1,31 @@
+.side-sub-cont {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.side-para {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+.side-para:hover{
+    cursor: pointer;
+    color: #FFBF00
+    
+}
+.sidebar-container {
+    max-width: 25vw;
+    min-width: 10vw;
+    flex-shrink: 0;
+}
+
+.displaySidebar {
+    display: block;
+}
+.hideSidebar {
+    display: none;
+}
+

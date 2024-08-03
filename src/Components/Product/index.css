@@ -1,0 +1,27 @@
+
+
+.main-container {
+    padding: 15px;
+}
+
+
+
+.sub-container {
+    display: flex;
+    width: 85vw;
+}
+
+.filter-container {
+    min-width: 15vw;
+    max-width: 20vw;
+
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    list-style-type: none;
+    flex-wrap: wrap;
+}

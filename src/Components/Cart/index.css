@@ -1,0 +1,36 @@
+.cart-cont{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+
+.cart-sub-cont {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 80vw;
+}
+
+.cart-img {
+    width: 85px
+}
+
+.cart-card {
+    border: 2px solid #F2B703;
+    width: 20vw;
+    height: 30vh;
+    margin: 25px;
+    padding: 15px;
+    background-color: #FFF39C;
+    border-radius: 15px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
